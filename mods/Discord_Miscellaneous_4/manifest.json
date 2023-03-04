@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Discord - Girl 4",
+    "description": "Anime girl wallpaper for Knami!",
+    "version": "1.0.0",
+    "icons":
+    {
+        "512": "girl_512.png"
+    },
+    "author": "Kami",
+    "developer":
+    {
+        "name": "Kami"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.theme.css",
+                        "css/changecolors.css"
+                    ]
+                }
+            ]
+        }
+    }
+}
